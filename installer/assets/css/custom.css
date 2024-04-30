@@ -1,0 +1,110 @@
+/*******************************
+* Dashboard
+******************************/
+ @media print { .btn_on_print{display:none} }
+ 
+.table-responsive{
+    overflow-x: inherit;    
+}
+
+.dashboard-box-widget section:nth-child(3n+3) {  
+  clear:both;
+}
+.custom,
+.custom div,
+.custom span {
+    border-color: rgb(0, 115, 183);
+     background-color: rgb(0, 115, 183);
+    
+    color: white;           /* text color */
+}
+.fc-event-time {
+    display:none !important;
+}
+
+.custom1,
+.custom1 div,
+.custom1 span {
+   border-color: rgb(245, 105, 84);
+   background-color: rgb(245, 105, 84);
+   color: white;           /* text color */
+}
+
+.p-x-y{
+   padding: 15px; 
+}
+
+.p-xx-y-b{
+    padding: 15px 15px 0px;
+}
+
+.p-xx-y-b .alert{
+    margin-bottom: 0px;
+}
+
+.m-x-y{
+   margin: 15px; 
+}
+
+.m-t-20{
+    margin-top: 20px;
+}
+
+.m-b-20{
+    margin-bottom: 20px;
+}
+
+.full-calendar .external-event{
+    cursor: auto;
+}
+
+
+section.content .alert{
+    margin: 5px 15px;
+}
+
+.month-tabs{
+    border: 1px solid #eeeeee;
+    padding: 20px 0px;
+}
+
+.month-tabs.nav-tabs>li>a{
+    color: #000000;
+}
+
+.month-tabs.nav-tabs>li.active>a, 
+.month-tabs.nav-tabs>li.active>a:focus, 
+.month-tabs.nav-tabs>li.active>a:hover,
+.month-tabs.nav > li > a:hover,
+.month-tabs.nav > li > a:active, 
+.month-tabs.nav > li > a:focus{
+    border-radius:0px;
+    background: #000000;
+    color: #ffffff;
+}
+
+.box-black{
+    border: 1px solid #eeeeee; 
+    border-radius: 0px;  
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4{
+    margin: 10px 30px;
+}
+
+.header-lang li.active{
+    background: #eeeeee;
+}
+.form-group{ position: relative; }
+
+.header_nav .navbar-nav .nav-link{ text-transform: uppercase !important; }
+img.home_testimonial_img.p-2 { height: 150px; margin: auto; text-align: center; border-radius: 100px; }
+img.hom_sponser_img.p-2 { height: 150px; margin: auto; text-align: center; border-radius: 100px; }
+
+img.image_preview { width: 35px; height: 35px; position: absolute; right: 20px; top: 24px; object-fit: contain; border-radius: 10px; }
+img.image_preview_40 { width: 40px; height: 40px;  object-fit: contain; border-radius: 10px; }
+.navbar-nav > .user-menu .user-image { object-fit: contain; }
+.navbar-nav > .user-menu .user-image { object-fit: contain; }
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > img {  object-fit: contain; }
+.user-panel > .image > img { width: 45px; height: 45px; object-fit: contain; background: #fff; }
+

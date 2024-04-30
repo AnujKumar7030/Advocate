@@ -1,0 +1,1 @@
+[30-Aug-2019 20:16:24 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/webappsdemo/public_html/advocate/application/modules/admin/views/case_study/add.php on line 1

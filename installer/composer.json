@@ -1,0 +1,7 @@
+{
+    "require": {
+        "rap2hpoutre/fast-excel": "^3.0",
+        "phpmailer/phpmailer": "^6.6",
+        "dompdf/dompdf": "^2.0"
+    }
+}
